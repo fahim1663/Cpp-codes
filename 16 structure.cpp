@@ -16,7 +16,7 @@ int main(){
     car mycar2;
     mycar2.brand="Ford";
     mycar2.model="Mustang";
-    mycar2.year=atoi("1969");
+    mycar2.year=atoi("1969");//if you don't use #include<string>
 
     cout<<mycar1.brand<<" "<<mycar1.model<<" "<<mycar1.year<<endl;
     cout<<mycar2.brand<<" "<<mycar2.model<<" "<<mycar2.year<<endl;
